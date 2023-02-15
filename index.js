@@ -5,12 +5,12 @@ app.use(express.static('public'))
 app.use(express.json({ limit: '1mb' }))
 
 const fs = require('fs');
-const testFolder = './public/audios';
+const audioFolder = './public/audios';
 
 
 
 const read_audios =  () => {
-    fs.readdir(testFolder, (err, files) => {
+    fs.readdir(audioFolder, (err, files) => {
         send_audios(files)
     })
 }

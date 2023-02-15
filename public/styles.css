@@ -138,6 +138,7 @@ main {
     width: 100%;
     padding: 15px;
     padding-left: 25px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.24);
 }
 .row:hover{
     cursor: pointer;

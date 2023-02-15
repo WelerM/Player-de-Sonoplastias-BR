@@ -60,6 +60,5 @@ btn_columns_format.addEventListener('click', ()=>{
     }else if(btn_columns_format.textContent === "COLUNAS"){
         btn_columns_format.textContent = 'BOTÕES'
     }
-    //btn_buttons_format.textContent='COLUNAS'
 
 })
