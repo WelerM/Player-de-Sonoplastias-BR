@@ -1,7 +1,7 @@
 {
-  "name": "sonoplastia_rodrigofar0_ratinh0",
+  "name": "player_sonoplastias_br",
   "version": "1.0.0",
-  "description": "famosos audios dos programas de tv brasileiros, talvez uma boa ideia de se usar em festas de amigos",
+  "description": "Um player que reproduz sonoplastias de programs brasileiros de tv",
   "main": "index.js",
   "dependencies": {
     "accepts": "^1.3.8",
@@ -23,9 +23,9 @@
     "express": "^4.18.2",
     "finalhandler": "^1.2.0",
     "forwarded": "^0.2.0",
+    "get-intrinsic": "^1.2.0",
     "fresh": "^0.5.2",
     "function-bind": "^1.1.1",
-    "get-intrinsic": "^1.2.0",
     "has": "^1.0.3",
     "has-symbols": "^1.0.3",
     "http-errors": "^2.0.0",
@@ -52,8 +52,8 @@
     "safer-buffer": "^2.1.2",
     "send": "^0.18.0",
     "serve-static": "^1.15.0",
-    "setprototypeof": "^1.2.0",
     "side-channel": "^1.0.4",
+    "setprototypeof": "^1.2.0",
     "statuses": "^2.0.1",
     "toidentifier": "^1.0.1",
     "type-is": "^1.6.18",
@@ -67,12 +67,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/WelerM/Sonoplastias_RodrigoFar0_Ratinh0.git"
+    "url": "git+https://github.com/WelerM/Player-de-Sonoplastias-BR.git"
   },
   "author": "Weler S Martins",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/WelerM/Sonoplastias_RodrigoFar0_Ratinh0/issues"
+    "url": "https://github.com/WelerM/Player-de-Sonoplastias-BR/issues"
   },
-  "homepage": "https://github.com/WelerM/Sonoplastias_RodrigoFar0_Ratinh0#readme"
+  "homepage": "https://github.com/WelerM/Player-de-Sonoplastias-BR#readme"
 }
