@@ -4,6 +4,9 @@ const btn_hamburguer = document.querySelector('.hamburguer')
 const header_dropDownMenu = document.querySelector('.header_dropDownMenu')
 const btn_start = document.querySelector('#start')
 const screen_warning = document.querySelector('.warning')
+const btn_columns_format = document.querySelector('#columns_format')
+
+
 
 async function spreadData() {
     const response = await fetch('/getData')
@@ -43,4 +46,20 @@ btn_hamburguer.addEventListener('click', ()=>{
 
 btn_start.addEventListener('click', ()=>{
     screen_warning.style.display='none'
+})
+
+btn_columns_format.addEventListener('click', ()=>{
+    const rows_to_buttons = document.querySelectorAll('.row')
+    for(let i = 0;i<rows_to_buttons.length;i++){
+        main.classList.toggle('js_main')
+        rows_to_buttons[i].classList.toggle('js_button_format')
+    }
+
+    if(btn_columns_format.textContent === "BOTÕES"){
+        btn_columns_format.textContent = 'COLUNAS'
+    }else if(btn_columns_format.textContent === "COLUNAS"){
+        btn_columns_format.textContent = 'BOTÕES'
+    }
+    //btn_buttons_format.textContent='COLUNAS'
+
 })
