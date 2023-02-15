@@ -1,7 +1,9 @@
 const btn = document.querySelector('button')
 const main = document.querySelector('main')
-
-
+const btn_hamburguer = document.querySelector('.hamburguer')
+const header_dropDownMenu = document.querySelector('.header_dropDownMenu')
+const btn_start = document.querySelector('#start')
+const screen_warning = document.querySelector('.warning')
 
 async function spreadData() {
     const response = await fetch('/getData')
@@ -34,3 +36,11 @@ async function spreadData() {
     }
 }
 spreadData()
+
+btn_hamburguer.addEventListener('click', ()=>{
+    header_dropDownMenu.classList.toggle('js_header_dropDownMenu')
+})
+
+btn_start.addEventListener('click', ()=>{
+    screen_warning.style.display='none'
+})
