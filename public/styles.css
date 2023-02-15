@@ -1,0 +1,51 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    height: 100vh;
+    max-width: 1920px ;
+    color: rgb(0, 208, 255);
+}
+
+
+header {
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding-left: 20px;
+}
+h1{
+        font-size: 23px;
+}
+span{
+    color: rgb(250, 21, 208);
+    font-family: cursive;
+}
+main {
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+}
+.row{
+    width: 100%;
+    padding: 15px;
+    padding-left: 25px;
+}
+.row:hover{
+    cursor: pointer;
+    background-color:  rgb(54, 54, 54);
+}
