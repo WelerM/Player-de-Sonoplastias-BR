@@ -1,7 +1,7 @@
 # Player de sonoplastias BR
 
 # Descrição
-Um play dos mais famosos sons que estamos acostumados a ouvir nos programas de TV brasileira. Apesar de bem irritantes, podem ser úteis para gerar
+Um player dos mais famosos sons que estamos acostumados a ouvir nos programas de TV brasileira. Apesar de bem irritantes, podem ser úteis para gerar
 algum tipo de humor em festas de amigos, então criei essa simples API para ser usada facilmente quando desejado.
 
 
